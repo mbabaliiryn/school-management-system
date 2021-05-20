@@ -2,11 +2,11 @@
 {% block body_block %}
 <div class="container">
   <div class="jumbotron">
-    <h1>Welcome to the Djungle !</h1>
+    <h1>Welcome to our school management system !</h1>
     {% if user.is_authenticated %}
-        <h2>Hello {{ user.username }}</h2>
+        <h2>Dear {{ user.username }}</h2>
     {% else %}
-        <h2>Register or Login if you'd like to</h2>
+        <h2>Register or Login to your account</h2>
     {% endif %}
   </div>
 </div>
